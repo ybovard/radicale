@@ -1,0 +1,12 @@
+[server]
+hosts = [::]:5232
+
+[storage]
+filesystem_folder = /var/db/radicale/collections
+
+[web]
+type = internal
+
+[logging]
+debug = True
+mask_passwords = True
